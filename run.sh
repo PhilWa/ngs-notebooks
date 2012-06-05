@@ -6,7 +6,6 @@ cd /usr/local/notebooks
 #git checkout -f master
 #git pull origin master
 
-export PYTHONPATH=/usr/local/notebooks/lib
 export PATH=/usr/local/bin:$PATH
-/usr/local/bin/ipython notebook
+/usr/local/bin/ipython notebook --pylab inline
 # --certfile=~/.ipython/mycert.pem --pylab inline --no-browser --ip=* --port=443
