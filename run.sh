@@ -7,4 +7,5 @@ cd /usr/local/notebooks
 #git pull origin master
 
 export PATH=/usr/local/bin:$PATH
-/usr/local/bin/ipython notebook --certfile=~/.ipython/mycert.pem --pylab inline --no-browser --ip=* --port=443
+/usr/local/bin/ipython notebook
+# --certfile=~/.ipython/mycert.pem --pylab inline --no-browser --ip=* --port=443
